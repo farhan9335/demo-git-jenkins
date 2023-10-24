@@ -13,7 +13,7 @@ class DemoGitJenkinsApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(DemoGitJenkinsApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		logger.info("<------------Inside context loads method----------->");
 		assertEquals(true, true);
 		logger.info("<------------Context loads method completed----------->");
